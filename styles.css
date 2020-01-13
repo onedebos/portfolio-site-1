@@ -88,3 +88,22 @@ img{
     font-size:.8em;
 }
 
+button{
+    font-size:0.9em;
+    font-weight: 800;
+    margin-right: 2em;
+    border: none;
+    background-color: white;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.sign-up a{
+background-color: black;
+padding:1em;
+color:white;
+}
+
+.login-nav{
+    margin-right: 6em;
+}
+
