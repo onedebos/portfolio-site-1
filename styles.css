@@ -1,0 +1,15 @@
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    width:100vw;
+    height:100vh;
+}
+nav{
+    display: flex;
+    background-color: white;
+    color:black;
+}
+
+.main-nav{
+    display: flex;
+}
