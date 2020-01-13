@@ -12,6 +12,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     width:100vw;
     height:100vh;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -19,6 +20,7 @@ nav{
     justify-content: space-between;
     color:black;
     font-weight: 500;
+    box-shadow: none;
     font-size:0.8em; 
     
 }
@@ -36,9 +38,6 @@ nav a{
     padding-left: 2em;
 }
 
-img{
-    width:100%;
-}
 
 .logo{
     margin-right: 2em;
@@ -104,6 +103,78 @@ color:white;
 }
 
 .login-nav{
-    margin-right: 6em;
+    margin-right: 8em;
 }
 
+
+/* main section */
+.header-section{
+margin:5.5em;
+}
+
+.header-p{
+    margin-top:2.5em;
+    color:grey;
+}
+
+.header-h{
+    font-family: 'Playfair Display',serif;
+    font-weight: 600;
+}
+
+.home{
+    width:100%;
+    object-fit: cover;
+    height: 450px;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+/* house image */
+.text-on-home{
+display: flex;
+position: absolute;
+bottom:5em;
+right: 4em;
+}
+
+.text{
+    color:white;
+    font-weight: 600;
+    margin-top:.4em;
+    margin-left:1em;
+}
+
+.play{
+    border-radius: 50%;
+    background-color: white;
+    width:40px;
+    height: 40px;
+}
+
+.play-arrow{
+    margin-top:.3em;
+    margin-right:.3em;
+}
+
+/* footer */
+.designer-section{
+    background-color: hotpink;
+    position: relative;
+    bottom:8em;
+}
+
+.headshot{
+    border-radius: 50%;
+    height:65px;
+    width: 70%;
+    object-fit: cover;
+    bottom:5rem;
+}
+
+.about{
+    padding:4em 4em 1em 9em;
+}
