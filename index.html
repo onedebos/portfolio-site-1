@@ -13,12 +13,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:600&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:600&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Modern Home</title>
   </head>
   <body>
@@ -46,65 +49,98 @@
       </nav>
     -->
     <nav id="nav-container">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
       <div class="main-nav">
-          <div class="logo">M</div>
-          <span class="col s10">MODERN HOME</span>
-          <div class="buy-sell">
-              <span>BUY</span>
-              <span>SELL</span>
-              <span>OFF MARKET PROPERTIES</span>
-          </div>
+        <div class="logo-space">
+          <div class="logo"><span class="logo-text">M</span></div>
+          <div class="modern-home">MODERN HOME</div>
+        </div>
+        <div class="buy-sell">
+          <span
+            ><a href="" class="dropdown-trigger" data-target="dropdown1"
+              >BUY<i class="material-icons right">arrow_drop_down</i></a
+            ></span
+          >
+          <span
+            ><a href="" class="dropdown-trigger" data-target="dropdown1"
+              >SELL<i class="material-icons right">arrow_drop_down</i></a
+            ></span
+          >
+          <span
+            ><a href="" class="dropdown-trigger" data-target="dropdown1"
+              >OFF MARKET PROPERTIES<i class="material-icons right"
+                >arrow_drop_down</i
+              ></a
+            ></span
+          >
+        </div>
       </div>
       <div class="login-nav">
-          <button class="login">
-            LOGIN
-          </button>
-          <button class="sign-up">
-            SIGN UP
-          </button>
+        <button class="login">
+          LOGIN
+        </button>
+        <button class="sign-up">
+          SIGN UP
+        </button>
       </div>
     </nav>
 
     <section>
       <div class="row white">
-        <div class="col s6"><h3>Lorem ipsum dolor sit amet consectetur.</h3></div>
-        <div class="col s6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem sequi ab vitae consectetur aspernatur officia, eius ipsum dolor soluta, veritatis minus voluptate illum natus animi illo tempora ipsam in?</p></div>
-      </div>
-
-      <div class="row">
-        <div class="col s12">
-            <img src="img/stephan-bechert-yFV39g6AZ5o-unsplash.jpg" alt="">
+        <div class="col s6">
+          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+        <div class="col s6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            exercitationem sequi ab vitae consectetur aspernatur officia, eius
+            ipsum dolor soluta, veritatis minus voluptate illum natus animi illo
+            tempora ipsam in?
+          </p>
         </div>
       </div>
 
       <div class="row">
-          <div class="col s6">
-            <div class="row about">
-                <div class="col s2 about-img">
-                    <img src="img/headshot.jpg" alt="">
-                </div>
-                <div class="col s10 about-architecht">
-                    <h3>Landon Peters</h3>
-                    <p>Modern House Design Architecht</p>
-                </div>
-            </div>
-            <div class="paragraph">
-                <h2>Designed in 2018 by Landon Peters</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae autem odio accusantium magni beatae ab, blanditiis nam et modi tempora.</p>
-            </div>
-          </div>
-          <div class="col s6">
-            <h2>1234 South Cedarfield Lane</h2>
-            <p>New York, NY 58603</p>
-            <p>
-                <span>5 beds</span>
-                <span>5 baths</span>
-                <span>4,850 sqft</span>
-            </p>
-          </div>
+        <div class="col s12">
+          <img src="img/stephan-bechert-yFV39g6AZ5o-unsplash.jpg" alt="" />
+        </div>
       </div>
 
-
+      <div class="row">
+        <div class="col s6">
+          <div class="row about">
+            <div class="col s2 about-img">
+              <img src="img/headshot.jpg" alt="" />
+            </div>
+            <div class="col s10 about-architecht">
+              <h3>Landon Peters</h3>
+              <p>Modern House Design Architecht</p>
+            </div>
+          </div>
+          <div class="paragraph">
+            <h2>Designed in 2018 by Landon Peters</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+              autem odio accusantium magni beatae ab, blanditiis nam et modi
+              tempora.
+            </p>
+          </div>
+        </div>
+        <div class="col s6">
+          <h2>1234 South Cedarfield Lane</h2>
+          <p>New York, NY 58603</p>
+          <p>
+            <span>5 beds</span>
+            <span>5 baths</span>
+            <span>4,850 sqft</span>
+          </p>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
