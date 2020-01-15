@@ -247,7 +247,7 @@ footer {
   }
 
   nav {
-    justify-content: center;
+    justify-content: flex-start;
   }
   .buy-mobile a:hover {
     color: grey;
@@ -258,9 +258,24 @@ footer {
   .circle {
     height: 40px;
     margin-top: 2em;
+    width: 40px;
+    padding-right: 1em;
   }
 
   .text-on-home {
-    bottom: -23em;
+    bottom: -16em;
+  }
+
+  .modern-home {
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+
+  .in-house span {
+    font-size: 0.8em;
+  }
+
+  .header-section {
+    margin: 4em;
   }
 }
