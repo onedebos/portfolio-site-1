@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  color: black;
+  font-weight: 500;
+  box-shadow: none;
+  font-size: 0.8em;
+}
+
+nav a {
+  color: black;
+}
+
+.main-nav,
+.logo-space {
+  display: flex;
+}
+
+.logo-space {
+  justify-content: space-evenly;
+  padding-left: 2em;
+}
+
+.logo {
+  margin-right: 2em;
+  margin-left: 4em;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  top: 1.4em;
+  left: 1em;
+}
+
+.logo-text {
+  position: absolute;
+  top: -1.4em;
+  right: 0.8em;
+  bottom: 2em;
+  font-weight: 800;
+}
+
+.buy-sell {
+  margin-left: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buy-sell span {
+  margin-right: 3em;
+}
+
+.buy-sell span i {
+  position: relative;
+  font-size: 1.5em;
+  top: 0.18em;
+  right: 0.9em;
+  color: grey;
+}
+
+.dropdown-content li a {
+  color: black;
+  font-size: 0.8em;
+}
+
+button {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-right: 2em;
+  border: none;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+.sign-up a {
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+.login-nav {
+  margin-right: 8em;
+}
+
+/* main section */
+.header-section {
+  margin: 5.5em;
+}
+
+.header-p {
+  margin-top: 2.5em;
+  color: grey;
+}
+
+.header-h {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.home {
+  width: 100vw;
+  object-fit: cover;
+  height: 450px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+/* house image */
+.text-on-home {
+  display: flex;
+  position: absolute;
+  bottom: 5em;
+  right: 4em;
+}
+
+.text {
+  color: white;
+  font-weight: 600;
+  margin-top: 0.4em;
+  margin-left: 1em;
+}
+
+.play {
+  border-radius: 50%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.play-arrow {
+  margin-top: 0.3em;
+  margin-right: 0.3em;
+}
+
+/* footer */
+.designer-section {
+  background-color: white;
+  position: relative;
+  bottom: 8em;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 60px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 1.5em;
+}
+
+.about {
+  padding: 2em 4em 0 3em;
+  margin-bottom: 0;
+}
+
+.about-architecht h3 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 3em;
+  line-height: 0.1em;
+}
+
+.about-architecht p {
+  color: grey;
+  font-size: 0.8em;
+  line-height: 0.1em;
+}
+footer {
+  text-align: center;
+}
+
+.paragraph {
+  padding-left: 3em;
+  padding-right: 4.5em;
+}
+.paragraph h2 {
+  font-family: "Playfair Display", serif;
+  line-height: 1.2em;
+  font-weight: 800;
+  font-size: 2.8em;
+  margin-top: 0.5em;
+}
+
+.see-list {
+  color: grey;
+}
+
+.address h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 3em;
+  padding-left: 1.5em;
+}
+
+.address p {
+  color: grey;
+  padding-left: 3em;
+}
+
+.address :last-child {
+  line-height: 4em;
+}
+
+.in-house span {
+  padding-right: 2em;
+}
+
+@media (min-width: 993px) {
+  .address h2 {
+    line-height: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .circle {
+    height: 80px;
+  }
+  .address h2 {
+    margin: 0;
+  }
+
+  .buy-mobile a {
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+  }
+
+  nav {
+    justify-content: center;
+  }
+  .buy-mobile a:hover {
+    color: grey;
+  }
+}
+
+@media (max-width: 600px) {
+  .circle {
+    height: 40px;
+    margin-top: 2em;
+  }
+
+  .text-on-home {
+    bottom: -23em;
+  }
+}
