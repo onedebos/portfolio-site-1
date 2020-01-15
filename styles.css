@@ -161,7 +161,7 @@ img {
   bottom: 8em;
 }
 
-.headshot {
+.circle {
   border-radius: 50%;
   height: 60px;
   width: 100%;
@@ -202,13 +202,20 @@ footer {
   margin-top: 0.5em;
 }
 
+.see-list {
+  color: grey;
+}
+
 .address h2 {
-  font-size: 2.8em;
+  font-size: 2em;
   font-weight: 600;
+  margin-top: 3em;
+  padding-left: 1.5em;
 }
 
 .address p {
   color: grey;
+  padding-left: 3em;
 }
 
 .address :last-child {
@@ -219,8 +226,41 @@ footer {
   padding-right: 2em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .address h2 {
     line-height: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .circle {
+    height: 80px;
+  }
+  .address h2 {
+    margin: 0;
+  }
+
+  .buy-mobile a {
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+  }
+
+  nav {
+    justify-content: center;
+  }
+  .buy-mobile a:hover {
+    color: grey;
+  }
+}
+
+@media (max-width: 600px) {
+  .circle {
+    height: 40px;
+    margin-top: 2em;
+  }
+
+  .text-on-home {
+    bottom: -23em;
   }
 }
