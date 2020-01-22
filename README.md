@@ -13,6 +13,10 @@ Real Estate Website built based on inspiration from [Devanta Ebinson on Dribble]
     - Cloudinary for asset management
     - Materialize CSS
 
+## Preview
+
+![alt text](https://res.cloudinary.com/onedebeos/image/upload/f_auto/v1579697306/Screenshot_2020-01-22_Modern_Home_nlixgm.png "Modern Home design")
+
 ## Written by
 
 Adebola Adeniran
