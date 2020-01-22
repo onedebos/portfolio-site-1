@@ -8,6 +8,11 @@ Real Estate Website built based on inspiration from [Devanta Ebinson on Dribble]
     - CSS
     - Javascript
 
+## Technologies Used
+
+    - Cloudinary for asset management
+    - Materialize CSS
+
 ## Written by
 
 Adebola Adeniran
