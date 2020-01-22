@@ -189,6 +189,7 @@ img {
 footer {
   text-align: center;
   padding-bottom: 2em;
+  font-size: 0.5em;
 }
 
 .paragraph {
@@ -257,10 +258,9 @@ footer {
 
 @media (max-width: 600px) {
   .circle {
-    height: 40px;
+    height: 45px;
     margin-top: 2em;
-    width: 40px;
-    padding-right: 1em;
+    width: 45px;
   }
 
   .text-on-home {
@@ -281,5 +281,18 @@ footer {
   }
   .header-section {
     margin: 4em;
+  }
+
+  footer p span {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .designer-section {
+    bottom: 3em;
+  }
+
+  .address h2 {
+    padding-right: 1.5em;
   }
 }
