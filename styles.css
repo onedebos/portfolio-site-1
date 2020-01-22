@@ -295,4 +295,9 @@ footer {
   .address h2 {
     padding-right: 1.5em;
   }
+
+  .designer-name,
+  .designer-title {
+    margin-left: 0.5em;
+  }
 }
